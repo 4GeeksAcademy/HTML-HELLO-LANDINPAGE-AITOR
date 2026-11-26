@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+}
+
+section {
+    min-height: 100vh;
+}
