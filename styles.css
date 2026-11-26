@@ -45,6 +45,26 @@ a {
   color: var(--color-night);
 }
 
+/* Enlace de salto accesible con teclado */
+.skip-link {
+  position: fixed;
+  z-index: 20;
+  top: 8px;
+  left: 8px;
+  padding: 10px 14px;
+  transform: translateY(calc(-100% - 16px));
+  background: #fff;
+  color: var(--color-night);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+  transform: translateY(0);
+}
+
 /* Navegación fija */
 .site-header {
   position: fixed;
@@ -240,6 +260,10 @@ a {
   background:
     radial-gradient(ellipse at 10% 85%, rgb(215 167 123 / 13%), transparent 32%),
     var(--color-paper);
+}
+
+.career .section__eyebrow {
+  color: #735337;
 }
 
 .career__milestones {
